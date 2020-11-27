@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: #2ecc71;
+}
+#menu{
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 230px;
+    text-align: center;
+    margin: auto;
+}
+.zeman-text h1{
+    font-size: 140px;
+}
+
+
+
+#cas{
+    width: 100%;
+    max-width: 300px;
+    padding-top: 130px;
+    margin: auto;
+}
+.cas-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+}
+.cas-text div{
+
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+    line-height: 100px;
+    text-align: center;
+
+    margin: 0 15px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cas-text div::before{
+    color: black;
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -30px;
+    height: 50px;
+    line-height: 35px;
+    font-size: 0.35em;
+
+}
+.cas-text #Roky::before{
+    content: 'Roky';
+}
+.cas-text #Dny::before{
+    content: 'Dny';
+}
+.cas-text #Hodiny::before{
+    content: 'Hodin';
+}
+.cas-text #Minuty::before{
+    content: 'Minuty';
+}
+.cas-text #Sekundy::before{
+    content: 'Sekundy';
+}
